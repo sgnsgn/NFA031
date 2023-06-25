@@ -75,7 +75,7 @@ public class ProjetNFA031 {
 	public static void ajouterNotePourUnChaton(double[] tabNotes, int[] tabVotes) {
 
 		int index = validationSaisie("Entrez le numero du chaton : ", 1, 5) - 1;
-		int note = validationSaisie("Entrez le nombre d'etoiles (1 a 5) : ", 1, 5);
+		int note = validationSaisie("Entrez le nombre d'etoiles (1 à 5) : ", 1, 5);
 		tabNotes[index] += note;
 		tabVotes[index] += 1;
 		Terminal.ecrireStringln("");
